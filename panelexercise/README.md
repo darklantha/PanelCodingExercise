@@ -14,7 +14,11 @@ Mission Parameters:
 	856	ipsum
 	13	foo
 
-    Please ignore capitalization.  For instance, "Ipsum" and "ipsum" should be considered the same word.
+Additional Notes:
+    
+	1. Please ignore capitalization.  For instance, "Ipsum" and "ipsum" should be considered the same word.
+	2. Please ignore punctuation.  For instance, ",ipsum", "ipsum.", and "ipsum, ", should all resolve to the same word "ipsum".
+
 Scoring:
 
 	Code will be evaluated for the following:
